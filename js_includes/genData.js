@@ -73,7 +73,7 @@ var creationSents = [
     ["EMPTY.", "slept through it"], 
     "a short film", 
     ["EMPTY", "The speaker is trying not to fully admit what Dan did, perhaps to avoid upsetting the person she is talking to."]
-    ],
+],
 ["Cynthia",  
     ["composed", "EMPTY"], 
     "a sonnet", 
@@ -88,34 +88,7 @@ var creationSents = [
     "a little clutter", 
     ["The speaker is trying not to fully admit what Duncan did, perhaps to avoid upsetting the person she is talking to.","EMPTY"]
 ],
-["Lars",  
-    ["sculpted", "EMPTY"], 
-    "a mug", 
-    ["made the handle", "EMPTY"], 
-    "a bowl", 
-    ["EMPTY","EMPTY"]
-],
-["Martina",  
-    ["invented", "EMPTY"], 
-    "a soup", 
-    ["added cumin to her grandmother's recipe", "EMPTY"], 
-    "a stew", 
-    ["EMPTY","EMPTY"]
-],
-["Patricia",  
-    ["EMPTY", "held"], 
-    "a monkey", 
-    ["EMPTY", "let it climb up her"], 
-    "a chimpanzee", 
-    ["EMPTY","EMPTY"]
-],
-["Brandon",  
-    ["EMPTY", "leased"], 
-    "an oboe", 
-    ["EMPTY", ""], 
-    "an English horn", 
-    ["EMPTY","EMPTY"]
-],
+
 ];
 
 var ITVSents = [
