@@ -303,7 +303,7 @@ function genQuestion(list,vType,e,qType)
 
     //alert('["'+q+'", "Question", {q: "'+sent+'", as: ['+'"'+vHedge+'"'+', '+'"'+oHedge+'"'+', '+'"'+pHedge+'"'+']}]');
     //return [q, "Question", {"q": "<p style='font-size:150%'>"+sent+"</p><br/><p style='font-size:100%'>What is the speaker hedging?</p></br>", "as": [vHedge, oHedge, pHedge]}];
-    return [q, "AcceptabilityJudgment", {"s": "<p style='font-size:150%'>"+sent+"</p><br/><p style='font-size:100%'>"+vHedge+"</p></br>", "q": "How natural in this context?"}];
+    return [q, "AcceptabilityJudgment", {"s": sent+" "+vHedge}];
 }
 
 function genPracticeQuestion(list,vType,e,qType)
