@@ -88,34 +88,7 @@ var creationSents = [
     "a little clutter", 
     ["The speaker is trying not to fully admit what Duncan did, perhaps to avoid upsetting the person she is talking to.","EMPTY"]
 ],
-["Lars",  
-    ["sculpted", "EMPTY"], 
-    "a mug", 
-    ["made the handle", "EMPTY"], 
-    "a bowl", 
-    ["EMPTY","EMPTY"]
-],
-["Martina",  
-    ["invented", "EMPTY"], 
-    "a soup", 
-    ["added cumin to her grandmother's recipe", "EMPTY"], 
-    "a stew", 
-    ["EMPTY","EMPTY"]
-],
-["Patricia",  
-    ["EMPTY", "held"], 
-    "a monkey", 
-    ["EMPTY", "let it climb up her"], 
-    "a chimpanzee", 
-    ["EMPTY","EMPTY"]
-],
-["Brandon",  
-    ["EMPTY", "played"], 
-    "an oboe", 
-    ["EMPTY", "made a few squeeking noises"], 
-    "an English horn", 
-    ["EMPTY","EMPTY"]
-],
+
 ];
 
 var ITVSents = [
@@ -204,6 +177,13 @@ var ITVSents = [
     ["said she was hungry for one", "EMPTY"], 
     "a wrap", 
     ["The speaker is trying not to fully admit what Helendid, perhaps to avoid upsetting the person she is talking to.", "EMPTY"]
+],
+["Amanda",  
+    ["demanded", "EMPTY"], 
+    "a towel", 
+    ["asked for it politely", "EMPTY"], 
+    "a washcloth", 
+    ["EMPTY","EMPTY"]
 ],
 
 ];
