@@ -95,6 +95,27 @@ var creationSents = [
     "a bowl", 
     ["EMPTY", "EMPTY"]
 ],
+["Martina",  
+    ["invented", "EMPTY"], 
+    "a soup", 
+    ["added cumin to her grandmother's recipe", "EMPTY"], 
+    "a stew", 
+    ["EMPTY","EMPTY"]
+],
+["Patricia",  
+    ["EMPTY", "held"], 
+    "a monkey", 
+    ["EMPTY", "let it climb up her"], 
+    "a chimpanzee", 
+    ["EMPTY","EMPTY"]
+],
+["Brandon",  
+    ["EMPTY", "played"], 
+    "an oboe", 
+    ["EMPTY", "made a few squeeking noises"], 
+    "an English horn", 
+    ["EMPTY","EMPTY"]
+],
 
 ];
 
@@ -191,6 +212,34 @@ var ITVSents = [
     ["asked for it politely", "EMPTY"], 
     "a washcloth", 
     ["EMPTY", "EMPTY"]
+],
+["Amanda",  
+    ["demanded", "EMPTY"], 
+    "a towel", 
+    ["asked for it politely", "EMPTY"], 
+    "a washcloth", 
+    ["EMPTY","EMPTY"]
+],
+["Ben",  
+    ["hoped for", "EMPTY"], 
+    "a bicycle", 
+    ["didn't mind one", "EMPTY"], 
+    "a tricyle", 
+    ["EMPTY","EMPTY"]
+],
+["Leah",  
+    ["EMPTY", "washed"], 
+    "an apple", 
+    ["EMPTY", "rubbed it on her shirt"], 
+    "a pear", 
+    ["EMPTY","EMPTY"]
+],
+["Craig",  
+    ["EMPTY", "folded"], 
+    "a sheet", 
+    ["EMPTY", "wadded it up"], 
+    "a tarp", 
+    ["EMPTY","EMPTY"]
 ],
 
 ];
@@ -299,9 +348,9 @@ function genWrapper()
     //I want to call this from data.js, with the arguments plugged in here
     //return genQuestionList(ITVSents.concat(creationSents), [0,0,0,0,1,1,1,1,1,1,0,0, 0,0,0,0,1,1,1,1,1,1,0,0], [0,1,0,1,0,1,0,1,0,1,0,1, 0,1,0,1,0,1,0,1,0,1,0,1], ["f","f","f","f","f","f","f","f","f","f","f","f", "f","f","f","f","f","f","f","f","f","f","f","f"]);
     var listList = ITVSents.concat(creationSents);
-    var vList = [0,0,0,0,1,1,1,1,1,1,0,0,0, 0,0,0,0,1,1,1,1,1,1,0,0,0];
-    var eList = [0,1,0,1,0,1,0,1,0,1,0,1,0, 0,1,0,1,0,1,0,1,0,1,0,1,0];
-    var qList = ["ti","ti","ti","ti","ti","ti","ti","ti","fi","fi","fi","fi","fi", "tc","tc","tc","tc","tc","tc","tc","tc","fc","fc","fc","fc","fc"];
+    var vList = [0,0,0,0,1,1,1,1,1,1,0,0,0,0,1,1, 0,0,0,0,1,1,1,1,1,1,0,0,0,0,1,1];
+    var eList = [0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1, 0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1];
+    var qList = ["ti","ti","ti","ti","ti","ti","ti","ti","fi","fi","fi","fi","fi","fi","fi","fi", "tc","tc","tc","tc","tc","tc","tc","tc","fc","fc","fc","fc","fc","fc","fc","fc"];
     if (!!(listList.length==vList.length==eList.length==qList.length))
     {
         alert("Error in genWrapper(): lists of unequal length: "+listList.length+", "+vList.length+", "+eList.length+", "+qList.length);
