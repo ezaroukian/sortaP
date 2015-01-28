@@ -178,13 +178,7 @@ var ITVSents = [
     "a wrap", 
     ["The speaker is trying not to fully admit what Helendid, perhaps to avoid upsetting the person she is talking to.", "EMPTY"]
 ],
-["Amanda",  
-    ["demanded", "EMPTY"], 
-    "a towel", 
-    ["asked for it politely", "EMPTY"], 
-    "a washcloth", 
-    ["EMPTY","EMPTY"]
-],
+
 
 ];
 
