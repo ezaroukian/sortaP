@@ -74,7 +74,7 @@ var creationSents = [
     "a short film", 
     ["EMPTY", "The speaker is trying not to fully admit what Dan did, perhaps to avoid upsetting the person she is talking to."]
     ],
-["Claire",  
+["Cynthia",  
     ["composed", "EMPTY"], 
     "a sonnet", 
     ["changed a few words in a sonnet by Shakespeare", "EMPTY"], 
@@ -87,7 +87,35 @@ var creationSents = [
     ["added a bit to what was already pretty untidy when he arrived", "EMPTY"], 
     "a little clutter", 
     ["The speaker is trying not to fully admit what Duncan did, perhaps to avoid upsetting the person she is talking to.","EMPTY"]
-]
+],
+["Lars",  
+    ["sculpted", "EMPTY"], 
+    "a mug", 
+    ["made the handle", "EMPTY"], 
+    "a bowl", 
+    ["EMPTY","EMPTY"]
+],
+["Martina",  
+    ["invented", "EMPTY"], 
+    "a soup", 
+    ["added cumin to her grandmother's recipe", "EMPTY"], 
+    "a stew", 
+    ["EMPTY","EMPTY"]
+],
+["Patricia",  
+    ["EMPTY", "held"], 
+    "a monkey", 
+    ["EMPTY", "let it climb up her"], 
+    "a chimpanzee", 
+    ["EMPTY","EMPTY"]
+],
+["Brandon",  
+    ["EMPTY", "leased"], 
+    "an oboe", 
+    ["EMPTY", ""], 
+    "an English horn", 
+    ["EMPTY","EMPTY"]
+],
 ];
 
 var ITVSents = [
@@ -176,7 +204,35 @@ var ITVSents = [
     ["said she was hungry for one", "EMPTY"], 
     "a wrap", 
     ["The speaker is trying not to fully admit what Helendid, perhaps to avoid upsetting the person she is talking to.", "EMPTY"]
-]
+],
+["Amanda",  
+    ["demanded", "EMPTY"], 
+    "a towel", 
+    ["asked for it politely", "EMPTY"], 
+    "a washcloth", 
+    ["EMPTY","EMPTY"]
+],
+["Ben",  
+    ["hoped for", "EMPTY"], 
+    "a bicycle", 
+    ["didn't mind one", "EMPTY"], 
+    "a tricyle", 
+    ["EMPTY","EMPTY"]
+],
+["Leah",  
+    ["EMPTY", "washed"], 
+    "an apple", 
+    ["EMPTY", "rubbed it on her shirt"], 
+    "a pear", 
+    ["EMPTY","EMPTY"]
+],
+["Craig",  
+    ["EMPTY", "folded"], 
+    "a sheet", 
+    ["EMPTY", "wadded it up"], 
+    "a tarp", 
+    ["EMPTY","EMPTY"]
+],
 ];
 
 var exSents = [
