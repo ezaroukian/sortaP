@@ -211,13 +211,6 @@ var ITVSents = [
     "a towel", 
     ["asked for it politely", "EMPTY"], 
     "a washcloth", 
-    ["EMPTY", "EMPTY"]
-],
-["Amanda",  
-    ["demanded", "EMPTY"], 
-    "a towel", 
-    ["asked for it politely", "EMPTY"], 
-    "a washcloth", 
     ["EMPTY","EMPTY"]
 ],
 ["Ben",  
@@ -301,7 +294,7 @@ function genQuestion(list,vType,e,qType)
     var oHedge = '"'+o+'"'+": e.g. What "+s+" "+v+" was actually more like "+list[4]+".";
     var pHedge = "whole sentence: e.g. The speaker is trying not to fully admit what "+s+" did, perhaps to avoid upsetting the person the speaker is talking to.";
 
-    //alert('["'+q+'", "Question", {q: "'+sent+'", as: ['+'"'+vHedge+'"'+', '+'"'+oHedge+'"'+', '+'"'+pHedge+'"'+']}]');
+    alert('["'+q+'", "Question", {q: "'+sent+'", as: ['+'"'+vHedge+'"'+', '+'"'+oHedge+'"'+', '+'"'+pHedge+'"'+']}]');
     return [q, "Question", {"q": "<p style='font-size:150%'>"+sent+"</p><br/><p style='font-size:100%'>What is the speaker hedging?</p></br>", "as": [vHedge, oHedge, pHedge]}];
     //return [q, "AcceptabilityJudgment", {"s": {html: sent+" "+vHedge}}];
 }
@@ -350,7 +343,7 @@ function genWrapper()
     var listList = ITVSents.concat(creationSents);
     var vList = [0,0,0,0,1,1,1,1,1,1,0,0,0,0,1,1, 0,0,0,0,1,1,1,1,1,1,0,0,0,0,1,1];
     var eList = [0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1, 0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1];
-    var qList = ["ti","ti","ti","ti","ti","ti","ti","ti","fi","fi","fi","fi","fi","fi","fi","fi", "tc","tc","tc","tc","tc","tc","tc","tc","fc","fc","fc","fc","fc","fc","fc","fc"];
+    var qList = ["ti","ti","ti","ti","ti","ti","ti","ti","fi","fi","fi","fi","fi","fi","fi","fi", "tc","tc","tc","tc","tc","tc","tc","tc","fc","fc","fc","fc","fc","fc","fc","fc" ];
     if (!!(listList.length==vList.length==eList.length==qList.length))
     {
         alert("Error in genWrapper(): lists of unequal length: "+listList.length+", "+vList.length+", "+eList.length+", "+qList.length);
