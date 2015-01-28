@@ -299,9 +299,9 @@ function genWrapper()
     //I want to call this from data.js, with the arguments plugged in here
     //return genQuestionList(ITVSents.concat(creationSents), [0,0,0,0,1,1,1,1,1,1,0,0, 0,0,0,0,1,1,1,1,1,1,0,0], [0,1,0,1,0,1,0,1,0,1,0,1, 0,1,0,1,0,1,0,1,0,1,0,1], ["f","f","f","f","f","f","f","f","f","f","f","f", "f","f","f","f","f","f","f","f","f","f","f","f"]);
     var listList = ITVSents.concat(creationSents);
-    var vList = [0,0,0,0,1,1,1,1,1,1,0,0, 0,0,0,0,1,1,1,1,1,1,0,0];
-    var eList = [0,1,0,1,0,1,0,1,0,1,0,1, 0,1,0,1,0,1,0,1,0,1,0,1];
-    var qList = ["ti","ti","ti","ti","ti","ti","ti","ti","fi","fi","fi","fi", "tc","tc","tc","tc","tc","tc","tc","tc","fc","fc","fc","fc"];
+    var vList = [0,0,0,0,1,1,1,1,1,1,0,0,0, 0,0,0,0,1,1,1,1,1,1,0,0,0];
+    var eList = [0,1,0,1,0,1,0,1,0,1,0,1,0, 0,1,0,1,0,1,0,1,0,1,0,1,0];
+    var qList = ["ti","ti","ti","ti","ti","ti","ti","ti","fi","fi","fi","fi","fi", "tc","tc","tc","tc","tc","tc","tc","tc","fc","fc","fc","fc","fc"];
     if (!!(listList.length==vList.length==eList.length==qList.length))
     {
         alert("Error in genWrapper(): lists of unequal length: "+listList.length+", "+vList.length+", "+eList.length+", "+qList.length);
