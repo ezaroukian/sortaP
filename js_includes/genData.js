@@ -260,14 +260,14 @@ function genQuestion(list,vType,e,qType)
 
     //alert('["'+q+'", "Question", {q: "'+sent+'", as: ['+'"'+vHedge+'"'+', '+'"'+oHedge+'"'+', '+'"'+pHedge+'"'+']}]');
     //return [q, "Question", {"q": "<p style='font-size:150%'>"+sent+"</p><br/><p style='font-size:100%'>What is the speaker hedging?</p></br>", "as": [vHedge, oHedge, pHedge]}];
-    return [q, "AcceptabilityJudgment", {"s": {html: sent+"<br/><br/> Context: "+vHedge}}],[q, "AcceptabilityJudgment", {"s": {html: sent+"<br/><br/> Context: "+oHedge}}];
+    return [  [q+".v", "AcceptabilityJudgment", {"s": {html: sent+"<br/><br/> Context: "+vHedge}}], [q+".o", "AcceptabilityJudgment", {"s": {html: sent+"<br/><br/> Context: "+oHedge}}]  ];
 }
 
 function genPracticeQuestion(list,vType,e,qType)
 {
     //Makes a practice question for the instructions
     //alert("called genPracticeQuestion");
-    var quest = genQuestion(list,vType,e,qType);
+    var quest = genQuestion(list,vType,e,qType)[1];
     quest[1] = "PracticeAcceptability";
     quest[2]["html"]= {"include": "gen_instructions4.html"};
     quest[2]["hideProgressBar"]="true";
@@ -292,10 +292,10 @@ function genQuestionList(listList, vList, eList, qList)
     var qlList=[];
     for (i=0;i<listList.length;i++)
     {
-        qlList.push(genQuestion(listList[i], vList[i], eList[i], qList[i]));
+        qlList = qlList.concat(genQuestion(listList[i], vList[i], eList[i], qList[i]));
         //qString=qString+genQuestion(listList[i], vList[i], eList[i], qList[i])+", ";
     }
-    //alert(qString);
+    alert(qlList);
     //return qString;
     return qlList;
 }
