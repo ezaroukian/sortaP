@@ -6,57 +6,49 @@ var creationSents = [
     ["built", "cleaned"], 
     "a barn", 
     ["assembled one that had been prefabricated", "swept"],
-    "a shack", //Need another variable for the second verb
-    ["The speaker is trying not to fully admit what John did, perhaps to avoid upsetting the person she is talking to.", "EMPTY"]
+    "a shack"
 ], 
 ["Mary",     
     ["wrote", "bought"], 
     "a novel", 
     ["co-authored it", "Her parents paid for it."], //Second doesn't work yet?
-    "a novella", //Need another variable for the second verb
-    ["The speaker is trying not to fully admit what Mary did, perhaps to avoid upsetting the person she is talking to.", "EMPTY"]
+    "a novella"
 ], 
 ["Peter",    
     ["made", "ate"], 
     "a pizza", 
     ["reheated it", "spit half of it back up"], //Second doesn't work yet?
-    "a calzone", //Need another variable for the second verb
-    ["The speaker is trying not to fully admit what Peter did, perhaps to avoid upsetting the person she is talking to.", "EMPTY"]
+    "a calzone"
 ], 
 ["Sue",     
     ["drew", "petted"], 
     "a wolf", 
     ["traced it", "patted it with a brush"], 
-    "a coyote", //Need another variable for the second verb
-    ["The speaker is trying not to fully admit what Sue did, perhaps to avoid upsetting the person she is talking to.", "EMPTY"]
+    "a coyote"
 ],
 ["Anna",     
     ["knitted", "borrowed"], 
     "a scarf", 
     ["wove it on a little loom", "stole it"], 
-    "a pashmina", //Need another variable for the second verb
-    ["EMPTY", "The speaker is trying not to fully admit what Anna did, perhaps to avoid upsetting the person she is talking to."]
+    "a pashmina"
 ],
 ["Charlie", 
     ["dug", "fell in"], 
     "a pit", 
     ["cleared a bit of dirt from a pit that was already mostly dug out by the time he found it", "got his foot caught in it"], 
-    "a medium-size hole", //Need another variable for the second verb
-    ["EMPTY", "The speaker is trying not to fully admit what Charlie did, perhaps to avoid upsetting the person she is talking to."]
+    "a medium-size hole"
 ],
 ["Claire",     
     ["composed", "listened to"], 
     "a symphony", 
     ["wrote the first movement", "had it on in the background"], 
-    "a tone poem", //Need another variable for the second verb
-    ["EMPTY", "The speaker is trying not to fully admit what Claire did, perhaps to avoid upsetting the person she is talking to."]
+    "a tone poem"
 ],
 ["Roger",     
     ["EMPTY", "sliced"], 
     "an orange", 
     ["EMPTY", "tore it into pieces"], 
-    "a tangerine", 
-    ["EMPTY", "The speaker is trying not to fully admit what Roger did, perhaps to avoid upsetting the person she is talking to."]
+    "a tangerine"
 ],
 
 //used as fillers
@@ -64,57 +56,49 @@ var creationSents = [
     ["EMPTY", "sat on"], 
     "a pillow", 
     ["EMPTY.", "knelt on it"], 
-    "a rug", 
-    ["EMPTY","The speaker is trying not to fully admit what Rebecca did, perhaps to avoid upsetting the person she is talking to."]
+    "a rug"
 ],
 ["Dan",     
     ["EMPTY", "watched"], 
     "a movie", 
     ["EMPTY.", "slept through it"], 
-    "a short film", 
-    ["EMPTY", "The speaker is trying not to fully admit what Dan did, perhaps to avoid upsetting the person she is talking to."]
+    "a short film"
 ],
 ["Cynthia",  
     ["composed", "EMPTY"], 
     "a sonnet", 
     ["changed a few words in a sonnet by Shakespeare", "EMPTY"], 
-    "free verse", 
-    ["The speaker is trying not to fully admit what Claire did, perhaps to avoid upsetting the person she is talking to.","EMPTY"]
+    "free verse"
 ],
 ["Duncan",  
     ["created", "EMPTY"], 
     "a mess", 
     ["added a bit to what was already pretty untidy when he arrived", "EMPTY"], 
-    "a little clutter", 
-    ["The speaker is trying not to fully admit what Duncan did, perhaps to avoid upsetting the person she is talking to.","EMPTY"]
+    "a little clutter"
 ],
 ["Lars",  
     ["sculpted", "EMPTY"], 
     "a mug", 
     ["made the handle", "EMPTY"], 
-    "a bowl", 
-    ["EMPTY", "EMPTY"]
+    "a bowl"
 ],
 ["Martina",  
     ["invented", "EMPTY"], 
     "a soup", 
     ["added cumin to her grandmother's recipe", "EMPTY"], 
-    "a stew", 
-    ["EMPTY","EMPTY"]
+    "a stew"
 ],
 ["Patricia",  
     ["EMPTY", "held"], 
     "a monkey", 
     ["EMPTY", "let it climb up her"], 
-    "a chimpanzee", 
-    ["EMPTY","EMPTY"]
+    "a chimpanzee"
 ],
 ["Brandon",  
     ["EMPTY", "played"], 
     "an oboe", 
     ["EMPTY", "made a few squeeking noises"], 
-    "an English horn", 
-    ["EMPTY","EMPTY"]
+    "an English horn"
 ],
 
 ];
@@ -124,57 +108,49 @@ var ITVSents = [
     ["wanted", "refused"], 
     "a raise", 
     ["wondered whether he needed a raise","forget to sign the necessary paperwork"], 
-    "a bonus", //Need another variable for the second verb
-    ["The speaker is trying not to fully admit what Bob did, perhaps to avoid upsetting the person she is talking to.","EMPTY"]
+    "a bonus"
 ], 
 ["Sarah", 
     ["needed", "tried to find"], 
     "a blender", 
     ["wanted one very badly","not put much effort into it"], 
-    "a food processor", //Need another variable for the second verb
-    ["The speaker is trying not to fully admit what Sarah did, perhaps to avoid upsetting the person she is talking to.","EMPTY"]
+    "a food processor"
 ], 
 ["Andy", 
     ["begged for", "earned"], 
     "a trophy", 
     ["asked what it would take to get one", "cheated a little, but less than most people"], 
-    "a statuette", //Need another variable for the second verb
-    ["The speaker is trying not to fully admit what Andy did, perhaps to avoid upsetting the person she is talking to.","EMPTY"]
+    "a statuette"
 ], 
 ["Sam", 
     ["looked for", "climbed"], 
     "a mountain", 
     ["took a quick glance at an outdated map", "took a ski lift most of the way"], 
-    "a big hill", //Need another variable for the second verb
-    ["The speaker is trying not to fully admit what Sam did, perhaps to avoid upsetting the person she is talking to.","EMPTY"]
+    "a big hill"
 ],
 ["Chris", 
     ["rummaged around for", "threw away"], 
     "a pen", 
     ["took a quick glance under the bed", "accidentally knocked it off his desk into the trash"], 
-    "a marker", //Need another variable for the second verb
-    ["EMPTY", "The speaker is trying not to fully admit what Chris did, perhaps to avoid upsetting the person she is talking to."]
+    "a marker"
 ],
 ["Irene", 
     ["prayed for", "flew through"], 
     "a storm", 
     ["hoped for one", "flew through the very edge of it"], 
-    "a bit of rain", //Need another variable for the second verb
-    ["EMPTY", "The speaker is trying not to fully admit what Irene did, perhaps to avoid upsetting the person she is talking to."]
+    "a bit of rain"
 ],
 ["Dennis", 
     ["was afraid of", "yelled at"], 
     "a bee", 
     ["worried about his insect allergy", "squealed in alarm"], 
-    "a wasp", //Need another variable for the second verb
-    ["EMPTY", "The speaker is trying not to fully admit what Dennis did, perhaps to avoid upsetting the person she is talking to."]
+    "a wasp"
 ],
 ["Katie", 
     ["EMPTY", "visited"], 
     "a castle", 
     ["EMPTY", "drove past it"], 
-    "a monastery", 
-    ["EMPTY", "The speaker is trying not to fully admit what Katie did, perhaps to avoid upsetting the person she is talking to."]
+    "a monastery"
 ],
 
 //used as fillers
@@ -182,57 +158,49 @@ var ITVSents = [
     ["EMPTY", "hammered"], 
     "a nail", 
     ["EMPTY", "pounded at it with his shoe"], 
-    "a tack", 
-    ["EMPTY", "The speaker is trying not to fully admit what Tony did, perhaps to avoid upsetting the person she is talking to."]
+    "a tack"
 ],
 ["Laura", 
     ["EMPTY", "wore"], 
     "a skirt", 
     ["EMPTY", "used it as a shawl"], 
-    "a tutu", 
-    ["EMPTY","The speaker is trying not to fully admit what Laura did, perhaps to avoid upsetting the person she is talking to."]
+    "a tutu"
 ],
 ["Greg", 
     ["was afraid of", "EMPTY"], 
     "a puppy", 
     ["was worried about his allergies", "EMPTY"], 
-    "a full-grown miniature poodle", 
-    ["The speaker is trying not to fully admit what Greg did, perhaps to avoid upsetting the person she is talking to.", "EMPTY"]
+    "a full-grown miniature poodle"
 ],
 ["Helen", 
     ["asked for", "EMPTY"], 
     "a sandwich", 
     ["said she was hungry for one", "EMPTY"], 
-    "a wrap", 
-    ["The speaker is trying not to fully admit what Helendid, perhaps to avoid upsetting the person she is talking to.", "EMPTY"]
+    "a wrap"
 ],
 ["Amanda",  
     ["demanded", "EMPTY"], 
     "a towel", 
     ["asked for it politely", "EMPTY"], 
-    "a washcloth", 
-    ["EMPTY","EMPTY"]
+    "a washcloth"
 ],
 ["Ben",  
     ["hoped for", "EMPTY"], 
     "a bicycle", 
     ["didn't mind one", "EMPTY"], 
-    "a tricyle", 
-    ["EMPTY","EMPTY"]
+    "a tricyle"
 ],
 ["Leah",  
     ["EMPTY", "washed"], 
     "an apple", 
     ["EMPTY", "rubbed it on her shirt"], 
-    "a pear", 
-    ["EMPTY","EMPTY"]
+    "a pear"
 ],
 ["Craig",  
     ["EMPTY", "folded"], 
     "a sheet", 
     ["EMPTY", "wadded it up"], 
-    "a tarp", 
-    ["EMPTY","EMPTY"]
+    "a tarp"
 ],
 
 ];
@@ -242,8 +210,7 @@ var exSents = [
     ["kicked", "EMPTY"],
     "the ball",
     ["nudged it", "EMPTY"],
-    "a balloon",
-    ["EMPTY","EMPTY"]
+    "a balloon"
  ]
 ];
 
@@ -393,16 +360,14 @@ function genList(list)
         var emph = 0;//to make drafting easier
     
         output+=counter+". "+genSent(list[i][0],list[i][1][vtype],list[i][2],emph)+"<br><br><input type='radio' name='p' value='1' class='obligatory'>"+list[i][1][vtype]+": e.g., "+list[i][3][vtype]+
-        "<br><input type='radio' name='p' value='2'>"+list[i][2]+": e.g., "+list[i][4]+
-        "<br> <input type='radio' name='p' value='3'>"+list[i][5][vtype]+"<br> <br>";
+        "<br><input type='radio' name='p' value='2'>"+list[i][2]+": e.g., "+list[i][4]+"<br> <br>";
         
         counter++;
         var vtype = 1;//to make drafting easier
         var emph = 1;//to make drafting easier
         
         output+=counter+". "+genSent(list[i][0],list[i][1][vtype],list[i][2],emph)+"<br><br><input type='radio' name='p' value='1' class='obligatory'>"+list[i][1][vtype]+": e.g., "+list[i][3][vtype]+
-        "<br><input type='radio' name='p' value='2'>"+list[i][2]+": e.g., "+list[i][4]+
-        "<br> <input type='radio' name='p' value='3'>"+list[i][5][vtype]+"<br> <br>";
+        "<br><input type='radio' name='p' value='2'>"+list[i][2]+": e.g., "+list[i][4]+"<br> <br>";
     }
     return output;
 }
@@ -416,7 +381,7 @@ function makeFillerList(list)
     {
         var oList=list[i][2].split(" ");
         var o = oList[1];//this is the object, e.g. "a novel", need to split it at space
-        fillList.push([list[i][0],list[i][1],"the "+o,list[i][3],list[i][4],list[i][5]]);
+        fillList.push([list[i][0],list[i][1],"the "+o,list[i][3],list[i][4]);
     }
     return fillList;
 }  
