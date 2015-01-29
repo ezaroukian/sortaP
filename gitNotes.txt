@@ -1,0 +1,14 @@
+From work:
+
+cd Documents/Sorta/SortaP
+
+git pull origin master
+
+git add js_includes
+git commit
+
+
+
+#General:
+#To cache github credentials
+git config --global credential.helper cache

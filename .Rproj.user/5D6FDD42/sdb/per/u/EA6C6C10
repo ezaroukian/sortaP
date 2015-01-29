@@ -1,0 +1,17 @@
+{
+    "contents" : "---\ntitle: \"SortaP subversion\"\nauthor: \"EGZ\"\ndate: \"Thursday, January 29, 2015\"\noutput: html_document\n---\n\nThis is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.\n\nWhen you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:\n\n\n```{r}\n\n\n\n```\n\n\n",
+    "created" : 1422540067236.000,
+    "dirty" : true,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "4082938348",
+    "id" : "EA6C6C10",
+    "lastKnownWriteTime" : 27303523719512181,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "source_on_save" : false,
+    "type" : "r_markdown"
+}

@@ -1,0 +1,9 @@
+{
+    "path" : "~/Sorta/sortaP",
+    "sortOrder" : [
+        {
+            "ascending" : true,
+            "columnIndex" : 2
+        }
+    ]
+}

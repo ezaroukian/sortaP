@@ -99,8 +99,7 @@ var creationSents = [
     "an oboe", 
     ["EMPTY", "made a few squeeking noises"], 
     "an English horn"
-],
-
+]
 ];
 
 var ITVSents = [
@@ -201,8 +200,7 @@ var ITVSents = [
     "a sheet", 
     ["EMPTY", "wadded it up"], 
     "a tarp"
-],
-
+] 
 ];
 
 var exSents = [
@@ -261,7 +259,8 @@ function genQuestion(list,vType,e,qType)
     var oHedge = '"'+o+'"'+": e.g. What "+s+" "+v+" was actually more like "+list[4]+".";
     var pHedge = "whole sentence: e.g. The speaker is trying not to fully admit what "+s+" did, perhaps to avoid upsetting the person the speaker is talking to.";
 
-    alert('["'+q+'", "Question", {q: "'+sent+'", as: ['+'"'+vHedge+'"'+', '+'"'+oHedge+'"'+', '+'"'+pHedge+'"'+']}]');
+    //alert('["'+q+'", "Question", {q: "'+sent+'", as: ['+'"'+vHedge+'"'+', '+'"'+oHedge+'"'+', '+'"'+pHedge+'"'+']}]');
+	//return ["a", "Question", {"q": "<p style='font-size:150%'></p><br/><p style='font-size:100%'>What is the speaker hedging?</p></br>", "as": ["vHedge", "oHedge", "pHedge"]}];
     return [q, "Question", {"q": "<p style='font-size:150%'>"+sent+"</p><br/><p style='font-size:100%'>What is the speaker hedging?</p></br>", "as": [vHedge, oHedge, pHedge]}];
     //return [q, "AcceptabilityJudgment", {"s": {html: sent+" "+vHedge}}];
 }
@@ -381,11 +380,11 @@ function makeFillerList(list)
     {
         var oList=list[i][2].split(" ");
         var o = oList[1];//this is the object, e.g. "a novel", need to split it at space
-        fillList.push([list[i][0],list[i][1],"the "+o,list[i][3],list[i][4]);
+        fillList.push([list[i][0],list[i][1],"the "+o,list[i][3],list[i][4]]);
     }
     return fillList;
 }  
- 
+
 
 
 
@@ -395,5 +394,5 @@ document.getElementById("test").innerHTML = "running...";
 
 document.getElementById("textDiv1").innerHTML = exWrapper();
 document.getElementById("textDiv2").innerHTML = genList(makeFillerList(creationSents).concat(makeFillerList(ITVSents)));
-//document.getElementById("textDiv3").innerHTML = genQuestion(creationSents[0],0,0,0)+genQuestion(creationSents[1],1,1,1);
+////document.getElementById("textDiv3").innerHTML = genQuestion(creationSents[0],0,0,0)+genQuestion(creationSents[1],1,1,1);
 document.getElementById("textDiv4").innerHTML = genWrapper();
