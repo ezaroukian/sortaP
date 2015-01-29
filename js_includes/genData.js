@@ -295,7 +295,7 @@ function genQuestionList(listList, vList, eList, qList)
         qlList = qlList.concat(genQuestion(listList[i], vList[i], eList[i], qList[i]));
         //qString=qString+genQuestion(listList[i], vList[i], eList[i], qList[i])+", ";
     }
-    alert(qlList);
+    //alert(qlList);
     //return qString;
     return qlList;
 }
