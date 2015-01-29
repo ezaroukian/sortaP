@@ -257,11 +257,10 @@ function genQuestion(list,vType,e,qType)
     var sent = genSent(s,v,o,e);
     var vHedge = s+" actually just "+list[3][vType]+".";
     var oHedge = "What "+s+" "+v+" was actually more like "+list[4]+".";
-    var pHedge = "whole sentence: e.g. The speaker is trying not to fully admit what "+s+" did, perhaps to avoid upsetting the person the speaker is talking to.";
 
     //alert('["'+q+'", "Question", {q: "'+sent+'", as: ['+'"'+vHedge+'"'+', '+'"'+oHedge+'"'+', '+'"'+pHedge+'"'+']}]');
     //return [q, "Question", {"q": "<p style='font-size:150%'>"+sent+"</p><br/><p style='font-size:100%'>What is the speaker hedging?</p></br>", "as": [vHedge, oHedge, pHedge]}];
-    return [q, "AcceptabilityJudgment", {"s": {html: sent+"<br/><br/> Context: "+vHedge}}];
+    return [q, "AcceptabilityJudgment", {"s": {html: sent+"<br/><br/> Context: "+vHedge}}],[q, "AcceptabilityJudgment", {"s": {html: sent+"<br/><br/> Context: "+oHedge}}];
 }
 
 function genPracticeQuestion(list,vType,e,qType)
