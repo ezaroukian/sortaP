@@ -270,7 +270,7 @@ function genPracticeQuestion(list,vType,e,qType)
     //Makes a practice question for the instructions
     //alert("called genPracticeQuestion");
     var quest = genQuestion(list,vType,e,qType);
-    quest[1] = "PracticeAcceptabilityJudgment";
+    quest[1] = "PracticeAcceptability";
     quest[2]["html"]= {"include": "gen_instructions4.html"};
     quest[2]["hideProgressBar"]="true";
     quest[2]["countsForProgressBar"]="false";
