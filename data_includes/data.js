@@ -1,6 +1,5 @@
 //genData.js makes all the test/filler items that are added via genWrapper()
 
-//var manualSendResults = true;
 var manualSendResults = false;
 //var shuffleSequence =   seq("intro","inst",rshuffle(rshuffle("test.itv","test.cre","filler")),"sr","done");      
 var shuffleSequence =   seq("inst","ex.other.s","ex.other.u","instEnd",rshuffle(rshuffle("test.itv.s","test.cre.s","test.other.s",
